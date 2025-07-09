@@ -24,3 +24,15 @@ Lásd : 'requirements.txt'
 
 1. Hozd létre az '.env' fájlt
 2. Futtasd: 'python scipts/load_raw_data.py'
+
+## A projekt célja
+
+A projectet azon célból hoztam létre, hogy bemutassam az alábbi tudásomat:
+1. Dataset betöltése, új adatbázisba való importálása saját megoldás szerint
+2. Star schema kialakítása, hogy a jövőben megfelelő elemzéseket lehessen végrehajtani vele
+
+## Star Schema
+
+Az alábbi ábra bemutatja az általam létrehozott táblák schemaját, függőségekkel együtt
+
+![Star Schema](superstore_schema.png)

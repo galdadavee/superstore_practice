@@ -29,3 +29,5 @@ df = pd.read_sql_query(query, engine)
 top_by_year = df.sort_values(['year', 'total_profit'], ascending=[True, False]).drop_duplicates(subset='year')
 
 print(top_by_year)
+
+df.to_csv("results/top_category_by_year.csv", index=False)

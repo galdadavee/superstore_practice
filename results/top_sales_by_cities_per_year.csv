@@ -1,0 +1,21 @@
+year,city,total_sales,city_rank
+2011.0,New York City,44364,1
+2011.0,San Francisco,30988,2
+2011.0,Los Angeles,28876,3
+2011.0,Jacksonville,25806,4
+2011.0,Manila,24161,5
+2012.0,New York City,70249,1
+2012.0,Los Angeles,41700,2
+2012.0,Mexico City,33352,3
+2012.0,London,24760,4
+2012.0,Seattle,22862,5
+2013.0,Los Angeles,56403,1
+2013.0,New York City,54833,2
+2013.0,Jakarta,33349,3
+2013.0,Sydney,31388,4
+2013.0,Philadelphia,30310,5
+2014.0,New York City,86951,1
+2014.0,Seattle,56996,2
+2014.0,Los Angeles,48878,3
+2014.0,Manila,46913,4
+2014.0,Philadelphia,41596,5

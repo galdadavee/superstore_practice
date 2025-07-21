@@ -44,3 +44,4 @@ ORDER BY year, country;
 df = pd.read_sql_query(query, engine)
 
 print(df)
+df.to_csv("results/top_segment_profit_by_country_year.csv", index=False)

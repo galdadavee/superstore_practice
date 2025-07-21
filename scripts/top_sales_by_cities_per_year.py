@@ -38,3 +38,4 @@ ORDER BY year, city_rank;
 
 df = pd.read_sql_query(query, engine)
 print(df)
+df.to_csv("results/top_sales_by_cities_per_year.csv", index=False)

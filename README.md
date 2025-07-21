@@ -4,9 +4,12 @@ Ez a projekt a Kaggle-n találtható Global Superstore dataset StarChema szerint
 
 ## Hogyan is néz ki a mappa struktúra?
 
-- 'data/' - Bemeneti csv, a nyers fájl
-- 'scripts/'- betöltöttem Postgresbe, pandas, os, dotenv és sqlalchemy segítségével. Kicsit mókolni kellett az oszlopneveket, mert a . elválasztás zavaró lehet lekérdezéseknél
-- 'sql/' - fact és dim táblák létrehozása, star schema kialakítása
+- 'data/' - Bemeneti csv, a nyers fájl.
+- 'scripts/'- betöltöttem Postgresbe, pandas, os, dotenv és sqlalchemy segítségével. Kicsit mókolni kellett az oszlopneveket, mert a . elválasztás zavaró lehet lekérdezéseknél.
+- 'sql/' - fact és dim táblák létrehozása, star schema kialakítása.
+- 'results/' - Itt találhatóak a lefuttatott scriptek eredményei .csv formátumban, későbbi felhasználásra.
+- 'notebooks/' - Itt találhatók a scriptek dokumentációi, Jupyter notebook formátumban.
+- 'img/' - Ide mentjük le az elkészített vizualizácókat.
 
 ## Adatbázis táblák
 - 'raw_superstore' - nyers adat
@@ -30,6 +33,7 @@ Lásd : 'requirements.txt'
 A projectet azon célból hoztam létre, hogy bemutassam az alábbi tudásomat:
 1. Dataset betöltése, új adatbázisba való importálása saját megoldás szerint
 2. Star schema kialakítása, hogy a jövőben megfelelő elemzéseket lehessen végrehajtani vele
+3. Kezdő és haladó elemzések, valamint vizualizácók gyakorlása
 
 ## Star Schema
 

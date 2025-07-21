@@ -36,3 +36,9 @@ A projectet azon célból hoztam létre, hogy bemutassam az alábbi tudásomat:
 Az alábbi ábra bemutatja az általam létrehozott táblák schemaját, függőségekkel együtt
 
 ![Star Schema](superstore_schema.png)
+
+Pár projekt leírás amiben elemzéseket csináltam
+
+## TOP 5 város szerinti eladás évente
+
+![Top 5 város eladás szerint](img/top_5_cities_by_sales.png)

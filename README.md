@@ -42,3 +42,16 @@ Pár projekt leírás amiben elemzéseket csináltam
 ## TOP 5 város szerinti eladás évente
 
 ![Top 5 város eladás szerint](img/top_5_cities_by_sales.png)
+
+## TOP profit kategóriánként, éves lebontásban
+
+Egy egyszerű lekérdezéssel megnéztem, hogy a vizsgált 4 évben mely kategória hozta a legnagyobb profitot, nem meglepő módon mind a 4 évben a Technológia volt a nyerő, évről évre növekedő profittal.
+
+## TOP profit szegmensenként, évre és országokra/régiókra lebontva.
+
+Egy minimálisan bonyolultabb elemzésben megvizsgáltam, hogy a vizsgált 4 évben melyik országban melyik szegmens hozta a legnagyobb profitot. Az elemzés megmutatja, hogy a vizsgált 4 évben relatíve sokszor deficit a legjobb eredmény.
+Miért is lehet ez?
+
+Egyes ország–év kombinációkban minden szegmens veszteséges volt (negatív profit).
+A lekérdezés ezek közül a legkevésbé veszteséges szegmenst választja ki.
+

@@ -59,3 +59,7 @@ Miért is lehet ez?
 Egyes ország–év kombinációkban minden szegmens veszteséges volt (negatív profit).
 A lekérdezés ezek közül a legkevésbé veszteséges szegmenst választja ki.
 
+## dbt projekt létrehozása
+
+A projekten belül, tesztelve dbt tudásomat, létrehozta egy automatizált projektet a dbt használatával. Ott megtekinthető az a projekt is.
+

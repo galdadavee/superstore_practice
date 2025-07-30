@@ -1,0 +1,22 @@
+# models/marts/dim_location.yml
+
+version: 2
+
+models:
+  - name: dim_location
+    description: "Model for location dimension."
+    columns:
+      - name: location_id
+        description: "The unique location identifier."
+        tests:
+          - unique
+          - not_null
+
+      - name: city
+        description: "City of the location."
+      - name: state
+        description: "State of the location."
+      - name: region
+        description: "Region of the location."
+      - name: country
+        description: "Country of the location."

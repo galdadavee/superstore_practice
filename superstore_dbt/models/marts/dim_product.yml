@@ -1,0 +1,22 @@
+# models/marts/dim_product.yml
+version: 2
+
+models:
+  - name: dim_product
+    description: "Model for product dimension."
+    columns:
+      - name: product_id
+        description: "The unique identifier of the product."
+        tests:
+          - unique
+          - not_null
+
+      - name: product_name
+        description: "The name of the product."
+        tests:
+          - not_null
+
+      - name: sub_category
+        description: "Sub-category of the product."
+      - name: category
+        description: "Main category of the product."

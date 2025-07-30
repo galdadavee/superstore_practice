@@ -1,0 +1,21 @@
+# models/marts/dimensions/dim_customer.yml
+
+version: 2
+
+models:
+  - name: dim_customer
+    description: "Model for customer dimension."
+    columns:
+      - name: customer_id
+        description: "The unique identifier of the customer."
+        tests:
+          - unique
+          - not_null
+
+      - name: customer_name
+        description: "The full name of the customer."
+        tests:
+          - not_null
+
+      - name: segment
+        description: "The segment category of the customer."

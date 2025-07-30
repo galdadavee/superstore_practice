@@ -1,0 +1,67 @@
+version: 2
+
+models:
+  - name: stg_customers
+    description: "Staging model for customer dimension"
+    columns:
+      - name: customer_id
+        description: "Customer ID"
+      - name: customer_name
+        description: "Customer name"
+      - name: segment
+        description: "Customer segment"
+
+  - name: stg_locations
+    description: "Staging model for location dimension"
+    columns:
+      - name: city
+        description: "City name"
+      - name: state
+        description: "State name"
+      - name: region
+        description: "Sales region"
+      - name: country
+        description: "Country"
+
+  - name: stg_products
+    description: "Staging model for product dimension with deduplicated product names"
+    columns:
+      - name: product_id
+        description: "Product ID"
+      - name: product_name
+        description: "Product name"
+      - name: sub_category
+        description: "Product sub-category"
+      - name: category
+        description: "Product category"
+
+  - name: stg_orders
+    description: "Staging model for orders fact table"
+    columns:
+      - name: order_row_id
+        description: "Unique row ID for the order"
+      - name: order_id
+        description: "Order ID"
+      - name: order_date
+        description: "Date of the order"
+      - name: ship_date
+        description: "Shipping date"
+      - name: product_id
+        description: "Foreign key to product"
+      - name: customer_id
+        description: "Foreign key to customer"
+      - name: quantity
+        description: "Quantity sold"
+      - name: discount
+        description: "Discount applied"
+      - name: profit
+        description: "Profit made on the order"
+      - name: sales
+        description: "Sales amount"
+      - name: shipping_cost
+        description: "Cost of shipping"
+      - name: city
+        description: "Shipping city"
+      - name: state
+        description: "Shipping state"
+

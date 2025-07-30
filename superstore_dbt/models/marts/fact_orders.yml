@@ -1,0 +1,54 @@
+# models/marts/fact_orders.yml
+
+version: 2
+
+models:
+  - name: fact_orders
+    description: "Fact table for orders."
+    columns:
+      - name: order_row_id
+        description: "Primary key for the order row."
+        tests:
+          - unique
+          - not_null
+
+      - name: order_id
+        description: "Order identifier."
+
+      - name: order_date
+        description: "Date when the order was placed."
+      - name: ship_date
+        description: "Date when the order was shipped."
+
+      - name: quantity
+        description: "Quantity ordered."
+      - name: sales
+        description: "Sales amount."
+      - name: profit
+        description: "Profit value."
+      - name: discount
+        description: "Discount given."
+      - name: shipping_cost
+        description: "Shipping cost for the order."
+
+      - name: customer_id
+        description: "Foreign key to dim_customer."
+        tests:
+          - relationships:
+              to: ref('dim_customer')
+              field: customer_id
+
+      - name: product_id
+        description: "Foreign key to dim_product."
+        tests:
+          - relationships:
+              to: ref('dim_product')
+              field: product_id
+
+      - name: location_id
+        description: "Foreign key to dim_location."
+        tests:
+          - relationships:
+              to: ref('dim_location')
+              field: location_id
+

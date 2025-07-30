@@ -1,0 +1,11 @@
+# models/staging/sources.yml
+
+version: 2
+
+sources:
+  - name: raw_superstore
+    database: superstore
+    schema: public
+    tables:
+      - name: raw_superstore
+ 

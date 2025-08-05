@@ -63,3 +63,12 @@ A lekérdezés ezek közül a legkevésbé veszteséges szegmenst választja ki.
 
 A projekten belül, tesztelve dbt tudásomat, létrehozta egy automatizált projektet a dbt használatával. Ott megtekinthető az a projekt is.
 
+## BigQuery integráció
+
+A projektet sikeresen áthelyeztem lokális PostgreSQL környezetől **Google BigQueryre**.
+
+### Konfiguráció:
+    - GCP-projekt: 'superstore-466618'
+    - Dataset: 'superstore_dbt'
+    - Kulcs alapú hitelesítés
+    - Minden modellt sikeresen compile-oltam és futtattam BigQueryn.

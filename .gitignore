@@ -41,6 +41,8 @@ superstore_dbt/dbt_packages/
 *.bak
 *.old
 
-
+# BigQuery files
+*.json
+superstore-466618-*.json
  
  

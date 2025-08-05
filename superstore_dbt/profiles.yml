@@ -1,0 +1,12 @@
+superstore_dbt:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: service-account
+      project: superstore-466618
+      dataset: superstore_dbt
+      threads: 4
+      timeout_seconds: 300
+      location: europe-west1
+      keyfile: C:\Users\HUGaldaD\superstore_practice\superstore_dbt\superstore-466618-024634b2c33f.json

@@ -4,8 +4,8 @@ version: 2
 
 sources:
   - name: raw_superstore
-    database: superstore
-    schema: public
+    database: superstore-466618   #Ide kell nekem a GCP projektem ID-je
+    schema: superstore_dbt        #BigQuery-n a dataset neve!
     tables:
       - name: raw_superstore
  
